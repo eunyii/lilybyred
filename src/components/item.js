@@ -29,7 +29,7 @@ const ItemA = styled.a`
 export const ItemCons = () => {
     const [products , setProducts] = useState([]);
     useEffect(()=>{
-        axios.get('/data/products.json').then((data)=>{
+        axios.get('/lilybyred/data/products.json').then((data)=>{
             setProducts(data.data.products);
         });
     },[setProducts]);

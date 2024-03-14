@@ -30,33 +30,33 @@ const BigImgImg = styled.img`
 const PickImg1 = styled.div`
     width: 369px;
     height: 512px;
-    background: url('https://eunyyi.github.io/project.github.io/assets/pick/th01.jpg') no-repeat center / cover;
+    background: url('/lilybyred/assets/pick/th01.jpg') no-repeat center / cover;
 `;
 const PickImg2 = styled.div`
     width: 369px;
     height: 512px;
-    background: url('https://eunyyi.github.io/project.github.io/assets/pick/th02.jpg') no-repeat center / cover;
+    background: url('/lilybyred/assets/pick/th02.jpg') no-repeat center / cover;
 
     &:hover {
-        background: url('https://eunyyi.github.io/project.github.io/assets/pick/th02-h.jpg') no-repeat center / cover;
+        background: url('/lilybyred/assets/pick/th02-h.jpg') no-repeat center / cover;
     }
 `;
 const PickImg3 = styled.div`
     width: 369px;
     height: 512px;
-    background: url('https://eunyyi.github.io/project.github.io/assets/pick/th03.jpg') no-repeat center / cover;
+    background: url('/lilybyred/assets/pick/th03.jpg') no-repeat center / cover;
 
     &:hover {
-        background: url('https://eunyyi.github.io/project.github.io/assets/pick/th03-h.jpg') no-repeat center / cover;
+        background: url('/lilybyred/assets/pick/th03-h.jpg') no-repeat center / cover;
     }
 `;
 const PickImg4 = styled.div`
     width: 369px;
     height: 512px;
-    background: url('https://eunyyi.github.io/project.github.io/assets/pick/th04.jpg') no-repeat center / cover;
+    background: url('/lilybyred/assets/pick/th04.jpg') no-repeat center / cover;
 
     &:hover {
-        background: url('https://eunyyi.github.io/project.github.io/assets/pick/th04-h.jpg') no-repeat center / cover;
+        background: url('/lilybyred/assets/pick/th04-h.jpg') no-repeat center / cover;
     }
 `;
 
