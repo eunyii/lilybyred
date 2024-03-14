@@ -65,7 +65,7 @@ export const ItemCons = () => {
             </ItemUl>
             <div className="row" style={{marginTop:'120px', flexWrap:'wrap', justifyContent:'space-between'}}>
                 {products && products.map((product)=>{
-                    return <Product key={'key=${product.id}'} product={product}/>
+                    return <Product key={product.id} product={product}/>
                 })}
             </div>
         </Item>

@@ -176,7 +176,7 @@ export const DetailCons = () => {
     const navi = useNavigate();
 
     useEffect(()=>{
-        axios.get('/data/products.json').then((res)=>{
+        axios.get('/lilybyred/data/products.json').then((res)=>{
             let target = res.data.products.find((product)=>{return product.id === Number(id)});
             // not exist product --> target === undefined
 
